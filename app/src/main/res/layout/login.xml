@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/borde"
+    android:layout_margin="10dp">
+    <TextView
+        android:text="Sing In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Cedula"
+        android:ems="10"
+        android:id="@+id/ETCedula" />
+
+    <Button
+        android:text="Ingresar"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:onClick="Ingresar"
+        android:id="@+id/BTIngresar" />
+
+
+    <TextView android:id="@+id/link_to_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginRight="10dip"
+        android:text="Registrate!"
+        android:layout_gravity="right"
+        android:textSize="15dip"
+        android:textColor="#0b84aa"
+        android:onClick="Registrarse" />
+</LinearLayout>
+</LinearLayout>
